@@ -1,4 +1,4 @@
-# this is p common in interviews so i thought why not
+# This is p common in interviews so i thought why not
 # there are normal naive approaches to do in O(n) time but there are cooler ways too
 # there is two approaches to this:
 
