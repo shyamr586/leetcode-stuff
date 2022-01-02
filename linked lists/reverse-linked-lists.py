@@ -1,4 +1,4 @@
-import convert_to_linked_list as converter
+import convert_linked_list as converter
 
 def reverse_linked_list(head):
     prev = None

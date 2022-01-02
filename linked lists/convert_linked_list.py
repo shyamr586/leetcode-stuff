@@ -22,3 +22,23 @@ def to_list(ll):
         arr.append(ll.value)
         ll = ll.next
     return arr
+
+def find_element_with_index(index,original):
+    head = original
+    count = 0
+    while head:
+        if count==index:
+            return head
+        head=head.next
+        count+=1
+
+def to_cyclic_linked_list(lst,pos):
+    cur = dummy = Element(0)
+    for e in lst:
+        cur.next = Element(e)
+        cur = cur.next
+    if pos!=-1:
+        cycle_element = find_element_with_index(pos,dummy.next)
+        cur.next = cycle_element
+    print (to_list(dummy.next))
+    # return dummy.next
