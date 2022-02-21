@@ -1,5 +1,6 @@
 # Not a leetcode problem, but can be asked in interviews.
-# Given a list with duplicate and non-duplicate values, return a dictionary with key as the element of array and
+# Given a list (or any sequence)
+# with duplicate and non-duplicate values, return a dictionary with key as the element of array and
 # value as the number of occurances.
 
 import collections
