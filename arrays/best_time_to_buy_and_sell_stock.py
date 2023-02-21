@@ -1,6 +1,6 @@
-# Basically, there is an array of prices where the array index is the price of that index.
+# Basically, there is an array of prices where the value of that index is the price of that index.
 # We have to find the maximum profit we could get by buying on the day with least price and selling with most price
-# after buting it.
+# after buying it.
 
 def using_kadanes_algorithm(prices):
     maxCur = 0

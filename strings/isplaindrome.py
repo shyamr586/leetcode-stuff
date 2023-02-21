@@ -2,6 +2,9 @@
 # for this one we are removing characters that are not alphabets or digits.
 # im showing two solutions which can be memorized fairly easily
 
+# Example:
+# "A man, a plan, a canal: Panama" is "amanaplanacanalpanama" which is a palindorme
+
 def two_pointer_technique(original):
     left,right = 0,len(original)-1
     
